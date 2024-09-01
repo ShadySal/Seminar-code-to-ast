@@ -1,0 +1,121 @@
+{
+  "type": "Program",
+  "children": [
+    {
+      "type": "FunctionDeclaration",
+      "children": [
+        {
+          "type": "Identifier",
+          "children": [],
+          "text": "factorial"
+        },
+        {
+          "type": "Identifier",
+          "children": [],
+          "text": "n"
+        }
+      ],
+      "text": ""
+    },
+    {
+      "type": "IfStatement",
+      "children": [
+        {
+          "type": "BinaryExpression",
+          "children": [
+            {
+              "type": "Identifier",
+              "children": [],
+              "text": "n"
+            },
+            {
+              "type": "Literal",
+              "children": [],
+              "text": "0"
+            }
+          ],
+          "text": "<"
+        }
+      ]
+    },
+    {
+      "type": "ReturnStatement",
+      "children": []
+    },
+    {
+      "type": "IfStatement",
+      "children": [
+        {
+          "type": "BinaryExpression",
+          "children": [
+            {
+              "type": "Identifier",
+              "children": [],
+              "text": "n"
+            },
+            {
+              "type": "Literal",
+              "children": [],
+              "text": "2"
+            }
+          ],
+          "text": "<"
+        }
+      ]
+    },
+    {
+      "type": "ReturnStatement",
+      "children": [
+        {
+          "type": "Literal",
+          "children": [],
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "ReturnStatement",
+      "children": [
+        {
+          "type": "BinaryExpression",
+          "children": [
+            {
+              "type": "Identifier",
+              "children": [],
+              "text": "n"
+            },
+            {
+              "type": "CallExpression",
+              "children": [
+                {
+                  "type": "Identifier",
+                  "children": [],
+                  "text": "factorial"
+                },
+                {
+                  "type": "BinaryExpression",
+                  "children": [
+                    {
+                      "type": "Identifier",
+                      "children": [],
+                      "text": "n"
+                    },
+                    {
+                      "type": "Literal",
+                      "children": [],
+                      "text": "1"
+                    }
+                  ],
+                  "text": "-"
+                }
+              ],
+              "text": ""
+            }
+          ],
+          "text": "*"
+        }
+      ]
+    }
+  ],
+  "text": ""
+}

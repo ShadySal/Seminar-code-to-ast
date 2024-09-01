@@ -1,0 +1,238 @@
+{
+  "type": "program",
+  "text": "function factorial(n) {\n  if (n < 0) return;\n  if (n < 2) return 1;\n  return n * factorial(n - 1);\n}",
+  "children": [
+    {
+      "type": "function_declaration",
+      "text": "function factorial(n) {\n  if (n < 0) return;\n  if (n < 2) return 1;\n  return n * factorial(n - 1);\n}",
+      "children": [
+        {
+          "type": "function",
+          "text": "function"
+        },
+        {
+          "type": "identifier",
+          "text": "factorial"
+        },
+        {
+          "type": "formal_parameters",
+          "text": "(n)",
+          "children": [
+            {
+              "type": "(",
+              "text": "("
+            },
+            {
+              "type": "identifier",
+              "text": "n"
+            },
+            {
+              "type": ")",
+              "text": ")"
+            }
+          ]
+        },
+        {
+          "type": "statement_block",
+          "text": "{\n  if (n < 0) return;\n  if (n < 2) return 1;\n  return n * factorial(n - 1);\n}",
+          "children": [
+            {
+              "type": "{",
+              "text": "{"
+            },
+            {
+              "type": "if_statement",
+              "text": "if (n < 0) return;",
+              "children": [
+                {
+                  "type": "if",
+                  "text": "if"
+                },
+                {
+                  "type": "parenthesized_expression",
+                  "text": "(n < 0)",
+                  "children": [
+                    {
+                      "type": "(",
+                      "text": "("
+                    },
+                    {
+                      "type": "binary_expression",
+                      "text": "n < 0",
+                      "children": [
+                        {
+                          "type": "identifier",
+                          "text": "n"
+                        },
+                        {
+                          "type": "<",
+                          "text": "<"
+                        },
+                        {
+                          "type": "number",
+                          "text": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "type": ")",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "type": "return_statement",
+                  "text": "return;",
+                  "children": [
+                    {
+                      "type": "return",
+                      "text": "return"
+                    },
+                    {
+                      "type": ";",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "if_statement",
+              "text": "if (n < 2) return 1;",
+              "children": [
+                {
+                  "type": "if",
+                  "text": "if"
+                },
+                {
+                  "type": "parenthesized_expression",
+                  "text": "(n < 2)",
+                  "children": [
+                    {
+                      "type": "(",
+                      "text": "("
+                    },
+                    {
+                      "type": "binary_expression",
+                      "text": "n < 2",
+                      "children": [
+                        {
+                          "type": "identifier",
+                          "text": "n"
+                        },
+                        {
+                          "type": "<",
+                          "text": "<"
+                        },
+                        {
+                          "type": "number",
+                          "text": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": ")",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "type": "return_statement",
+                  "text": "return 1;",
+                  "children": [
+                    {
+                      "type": "return",
+                      "text": "return"
+                    },
+                    {
+                      "type": "number",
+                      "text": "1"
+                    },
+                    {
+                      "type": ";",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "return_statement",
+              "text": "return n * factorial(n - 1);",
+              "children": [
+                {
+                  "type": "return",
+                  "text": "return"
+                },
+                {
+                  "type": "binary_expression",
+                  "text": "n * factorial(n - 1)",
+                  "children": [
+                    {
+                      "type": "identifier",
+                      "text": "n"
+                    },
+                    {
+                      "type": "*",
+                      "text": "*"
+                    },
+                    {
+                      "type": "call_expression",
+                      "text": "factorial(n - 1)",
+                      "children": [
+                        {
+                          "type": "identifier",
+                          "text": "factorial"
+                        },
+                        {
+                          "type": "arguments",
+                          "text": "(n - 1)",
+                          "children": [
+                            {
+                              "type": "(",
+                              "text": "("
+                            },
+                            {
+                              "type": "binary_expression",
+                              "text": "n - 1",
+                              "children": [
+                                {
+                                  "type": "identifier",
+                                  "text": "n"
+                                },
+                                {
+                                  "type": "-",
+                                  "text": "-"
+                                },
+                                {
+                                  "type": "number",
+                                  "text": "1"
+                                }
+                              ]
+                            },
+                            {
+                              "type": ")",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": ";",
+                  "text": ";"
+                }
+              ]
+            },
+            {
+              "type": "}",
+              "text": "}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
